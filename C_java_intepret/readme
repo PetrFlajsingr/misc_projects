@@ -1,0 +1,60 @@
+Prekladac jazyka IFJ16
+
+Autori: 
+    Petr Flajsingr, xflajs00@stud.fit.vutbr.cz
+    Igor Frank, xfrank12@stud.fit.vutbr.cz
+    Dominik Dvorak, xdvora1t@stud.fit.vutbr.cz
+    Pavel Mica, xmicap02@stud.fit.vutbr.cz
+    Martin Pospech, xpospe03@stud.fit.vutbr.cz
+   
+Datum: 04.12.2016
+
+Popis: 
+   Jedna se o prekladac jazyka IFJ16 (podmnozina jazyka Java SE), ktery 
+   dany jazyk interpretuje. Implementovany je v jazyce C. 
+   V pripade chyby se program ukonci chybovym hlasenim a vrati odpovidajici chybovy kod.
+   
+   V projektu jsou implementovane dve rozsireni, UNARY a BASE, pricemz UNARY je implementovano pouze castecne.
+
+Seznam souboru:
+	Makefile
+	dokumentace.pdf
+	rozdeleni
+	README
+	main.c
+	param.c
+	param.h
+	params.c
+	params.h
+	parser.c
+	parser.h
+	code_gen.c
+	code_gen.h
+	datatypes.h
+	etok.h
+	expr.c
+	expr.h
+	funcPar.c
+	funcPar.h
+	globals.h
+	interfaces.h
+	lex.c
+	lex.h
+	error.c
+	error.h
+	ial.c
+	ial.h
+	s_table.c
+    	s_table.h
+	stack.c
+	stack.h
+
+Makefile:
+	make 		-	preklad programu
+	make clean	-	odstraneni souboru vytvorenych prekladem
+	make zip	-	tvorba archivu xflajs00.zip
+
+Pouziti:
+	./ifj16 <input_file>
+	
+	pozn. soubor muze byt zadan relativni nebo absolutni cestou

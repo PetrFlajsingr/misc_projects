@@ -1,0 +1,233 @@
+
+html,body{
+  text-align: center;
+  font-family: courier;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom, #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+.login{
+  display: inline-block;
+  height:auto;
+  margin:0 auto;
+}
+h1{
+  margin:50px auto;
+  text-align: center;
+  font-size: 60px;
+  word-break: break-all;
+}
+h5{
+
+  font-size: 40px;
+}
+p{
+  font-size: 16px;
+}
+form{
+  width:50%;
+  margin:0 auto;
+}
+/*---- tabulky--------*/
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout:fixed;
+    width:100%;
+}
+tr:hover {
+  background-color: #f5f5f5
+}
+tr{
+  max-height: 260px;
+}
+td{
+  height: 260px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  overflow: hidden;
+  margin: auto;
+  padding: 15px;
+  word-break: normal;
+}
+th {
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 15px;
+  border-collapse: collapse;
+  text-align: left;
+}
+/*----list--------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  vertical-align: middle;
+}
+li {
+  float: left;
+  width: 20%;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 80px;
+  line-height: 40px;
+  width: 100%;
+
+}
+.hide{
+  visibility: hidden;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+.top-panel{
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  background-color: grey;
+  z-index: 0;
+  top:-1px;
+}
+.top-panel form{
+  height: 80px;
+
+}
+.top-panel label{
+  display: inline-block;
+  margin-top: 25px;
+  color: white;
+
+}
+img {
+  max-width: 430px;
+  max-height: 600px;
+  margin: 10px auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.thumbnail{
+  max-width: 160px;
+  max-height: 225px;
+  margin: 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+span {
+  background-color: red;
+}
+/* debug*/
+/*
+* {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+*/
+* {
+  box-sizing: border-box;
+}
+summary {
+  text-align: left;
+  background-color: #f1f1f1;
+  border:2px solid black;
+  border-radius: 20px;
+  padding: 10px 50px;
+  margin:10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+summary:hover{
+  background-color: #555;
+  color: white;
+}
+.container{
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 20px;
+  top: 20px;
+  padding: 50px;
+  margin:50px 100px;
+  background-color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  overflow: visible;
+  min-height: 90vh;
+}
+
+.moznostiIMG ul{
+ background-color: beige;
+}
+.moznostiIMG img{
+  max-width: 430px;
+  max-height: 600px;
+  margin: 10px auto;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.moznostiIMG li{
+  width: 19%;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: #333
+}
+.moznostiIMG li a:hover{
+  border-radius: 20px;
+  background-color: green;
+
+}
+#ano{
+  background-color: green;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+#ne{
+  background-color: red;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}/*
+#ano a:hover{
+  background-color: banana;
+}
+#ne a:hover{
+  border-radius: 20px;
+}*/
+.moznostiANO ul {
+  background-color: beige;
+}
+.moznostiANO li a:hover{
+  border-radius: 20px;
+}
+.moznostiANO{
+  margin-bottom: 20px;
+}
+.moznostiANO img{
+  max-width: 430px;
+  max-height: 600px;
+  margin: 10px auto;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.moznostiNAME label{
+  display: inline-block;
+  margin-top: 25px;
+  color: white;
+}
+.moznostiNAME ul{
+  padding: 0;
+  width: 100%;
+  height: 80px;
+}
+.moznostiNAME form {
+  width: 100%;
+}

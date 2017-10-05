@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project outputprefix="kb">
+
+    <!--  Project description -->
+    <name>Enigma</name>
+    <category>Projekt</category>
+    <author>Petr Flajšingr</author>
+    <authoremail>xflajs00@stud.fit.vutbr.cz </authoremail>
+    <description>Simulace šifrovacího stroje enigma na FITKITu</description>
+
+    <!--  MCU part -->
+    <mcu>
+        <include>mcu/libs/keyboard/package.xml</include>
+		<include>mcu/libs/lcd/package.xml</include>
+        <file>main.c</file>
+    </mcu>
+
+    <!-- FPGA part -->
+    <fpga>
+        <include>fpga/ctrls/keyboard/package.xml</include>
+		<include>fpga/ctrls/lcd/package.xml</include>
+        <file>top_level.vhd</file>
+    </fpga>
+
+</project>
